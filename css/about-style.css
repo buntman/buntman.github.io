@@ -10,27 +10,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}   
+    padding: 30px;
+}
 
 .navbar {
-    background-color: black;
-    position: fixed;
+    background-color:#ffff;
     height: 124px;
-}
-
-.nav {
-    padding: 20px;
-}
-
-
-.navbar-center {
-    margin: 0 auto;
-    justify-content: center;
-    display: flex;
 }
 
 .navbar-center a {
     font-family: Karla;
     font-size: 20px;
 }
+
+
+
 
