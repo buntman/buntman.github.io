@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #ffff;
+    height: 124px;
+}
+
+.navbar-link {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
