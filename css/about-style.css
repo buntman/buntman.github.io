@@ -14,12 +14,14 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    top: 0;
+    bottom: 0;
     height: 124px;
 }
 
 .logo {
     cursor: pointer;
-    margin-left: 40px;
+    display: inline-block;
 }
 
 li, a {
@@ -32,17 +34,14 @@ li, a {
     padding: 20px;
 }
 
-.navbar-center a{
+.navbar-center a {
     font-family: Karla;
     font-size: 20px;
     color: black;
 }
 
 .navbar-right li{
-    padding: 18px;
+    padding: 15px;
 }
 
-.navbar-right {
-    margin-right: 24px;
-}
 
