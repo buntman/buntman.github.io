@@ -9,39 +9,45 @@ body {
     background-color: #e5e5e5;
 }
 
-header {
-    background-color:#ffff;
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    top: 0;
-    bottom: 0;
+    padding: 20px;
     height: 124px;
+    background-color: #ffff;
 }
 
 .logo {
     cursor: pointer;
-    display: inline-block;
 }
 
-li, a {
-    list-style: none;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.navbar-center li{
-    padding: 20px;
-}
-
-.navbar-center a {
+.nav-center a {
+    color: black;
     font-family: Karla;
     font-size: 20px;
-    color: black;
 }
 
-.navbar-right li{
-    padding: 15px;
+.nav-link:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+    color: #ff6d3c;
 }
 
 
+.nav-center {
+    margin: 0 130px;
+    position: relative;
+}
+
+.nav-center li {
+    padding: 12px;
+}
+
+.nav-right li {
+    padding: 5px;
+}
+
+.glyphicon-menu-hamburger {
+    font-size: 20px;
+}
