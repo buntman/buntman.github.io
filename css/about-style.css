@@ -34,10 +34,9 @@ nav {
     color: #ff6d3c;
 }
 
-
 .nav-center {
     margin: 0 130px;
-    position: relative;
+    display: flex;
 }
 
 .nav-center li {
@@ -48,6 +47,13 @@ nav {
     padding: 5px;
 }
 
+.nav-right {
+    display: flex;
+}
+
 .glyphicon-menu-hamburger {
     font-size: 20px;
 }
+
+
+
