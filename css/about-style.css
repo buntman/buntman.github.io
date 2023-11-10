@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 
+.navbar {
+    z-index: 1000;
+}
+
 .navbar-toggle .icon-bar {
     background-color: black;
     width: 22px;
@@ -44,3 +48,28 @@
     color: orange;
     cursor: pointer;
 }
+
+
+#about-background {
+    width: 100%;    
+    height: 100%;
+    object-fit: cover; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.content p {
+    color: #ffff;
+    font-size: 30px;
+}
+
+.content {
+    position: absolute;
+    width: 50%; 
+    margin-top: 20%;
+    top: 50px;
+    left: 10%;
+}
+
