@@ -1,59 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+.navbar-toggle .icon-bar {
+    background-color: black;
+    width: 22px;
+    height: 2px;
 }
 
-body {
-    background-color: #e5e5e5;
+.navbar-brand {
+    padding: 25px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-toggle {
+    margin: 25px 15px 25px 0;
+}
+
+.navbar-center {
+    padding-top: 20px;
+}
+
+.navbar-center a {
+    font-size: 15px;
+    font-family: Karla;
+}
+     
+.navbar-right {
     padding: 20px;
-    height: 124px;
-    background-color: #ffff;
 }
 
-.logo {
+.navbar-right a {
+    padding: 20px;
+}
+
+.navbar-right i {
+    font-size: 15px;
+    color: black;
+}
+
+.navbar-right i:hover {
+    color: orange;
     cursor: pointer;
 }
-
-.nav-center a {
-    color: black;
-    font-family: Karla;
-    font-size: 20px;
-}
-
-.nav-link:hover {
-    text-decoration: none;
-    background-color: transparent !important;
-    color: #ff6d3c;
-}
-
-.nav-center {
-    margin: 0 130px;
-    display: flex;
-}
-
-.nav-center li {
-    padding: 12px;
-}
-
-.nav-right li {
-    padding: 5px;
-}
-
-.nav-right {
-    display: flex;
-}
-
-.glyphicon-menu-hamburger {
-    font-size: 20px;
-}
-
-
-
