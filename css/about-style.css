@@ -36,8 +36,14 @@ body {
 
 
 .navbar-center a {
+    color: black !important;
     font-size: 15px;
     font-family: Karla;
+}
+
+.navbar-center a:hover {
+    transition: .5s;
+    color: #ff6d3c!important;
 }
      
 .navbar-right {
@@ -54,8 +60,8 @@ body {
 }
 
 .navbar-right i:hover {
-    color: orange;
-    cursor: pointer;
+    transition: .5s;
+    color: #ff6d3c;
 }
 
 
