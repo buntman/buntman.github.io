@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
+    background-color: #ffff;
     z-index: 1000;
+    position: fixed; 
+    width: 100%; 
 }
 
 .navbar-toggle .icon-bar {
@@ -25,6 +33,7 @@
 .navbar-center {
     padding-top: 20px;
 }
+
 
 .navbar-center a {
     font-size: 15px;
@@ -50,14 +59,12 @@
 }
 
 
-#about-background {
-    width: 100%;    
-    height: 100%;
-    object-fit: cover; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1; 
+.background-image {
+    background-image: url('/images/about-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
 }
 
 .content p {
