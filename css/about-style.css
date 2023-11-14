@@ -87,6 +87,7 @@ body {
     left: 10%;
 }
 
+
 .footer {
     background-color: #1f1f1f;
     padding: 60px 0;
@@ -164,11 +165,52 @@ body {
     margin-bottom: 35px;
 }
 
+.footer-content2 {
+    margin: 10% 0 0 5%;
+}
 
-@media(max-width: 1154px) {
+
+.footer-content2 li {
+    display: inline;
+}
+
+.footer-content2 ul {
+    margin-bottom: 20px;
+}
+
+
+.footer-content2 li:not(:last-child) {
+    padding-right: 60px;
+}
+
+.footer-content2 span {
+    padding-left: 40px;
+    font-weight: lighter;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+
+@media(max-width: 1276px) {
     .footer-content {
         width: 50%;
     }
 }
+
+
+@media(max-width: 582px) {
+    .footer-content {
+        width: 100%;
+    }
+    
+    .footer-content2 {
+        width: 50%;
+    }
+}
+
+
+/* need to fix responsiveness of the footer */
+
+
 
 
