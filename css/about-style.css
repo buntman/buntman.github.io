@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color:#e5e5e5;
 }
 
 .navbar {
@@ -82,6 +83,22 @@ body {
     left: 10%;
 }
 
+.second-content h1 {
+    margin-right: 10%;
+    font-family: Karla;
+    font-size: 56px;
+    color: #00024B;
+}
+
+.second-content p {
+    font-family: League Spartan;
+    font-size: 26px;
+    color: #000000;
+}
+
+.paragraph-container {
+    max-width: 500px;
+}   
 
 .footer {
     background-color: #1f1f1f;
