@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=League+Spartan:wght@100;400&family=Roboto:wght@100&display=swap');
 
 body {
     margin: 0;
@@ -7,17 +7,13 @@ body {
 }
 
 .navbar {
+    border-radius: 0;
     background-color: #ffff;
     z-index: 1000;
     position: fixed; 
     width: 100%; 
 }
 
-.navbar-toggle .icon-bar {
-    background-color: black;
-    width: 22px;
-    height: 2px;
-}
 
 .navbar-brand {
     padding: 25px;
@@ -44,7 +40,7 @@ body {
 
 .navbar-center a:hover {
     transition: .5s;
-    color: #ff6d3c!important;
+    color: #ff6d3c !important;
 }
      
 .navbar-right {
@@ -62,9 +58,8 @@ body {
 
 .navbar-right i:hover {
     transition: .5s;
-    color: #ff6d3c;
+    color:#ff6d3c;
 }
-
 
 .background-image {
     background-image: url('/images/about-background.jpg');
@@ -130,7 +125,6 @@ body {
 .footer-content li, a,p {
     color: white;
     font-size: 17px;
-    font-weight: lighter;
 }
 
 .footer-content i {
