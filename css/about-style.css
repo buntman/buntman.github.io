@@ -191,25 +191,53 @@ body {
 }
 
 
-@media(max-width: 1276px) {
+@media(max-width: 1200px) {
     .footer-content {
         width: 50%;
+    }
+
+    .footer {
+        height: auto;
     }
 }
 
 
-@media(max-width: 582px) {
+@media(max-width: 992px) {  
     .footer-content {
         width: 100%;
+        padding-bottom: 30px;
     }
+
+    .form-group {
+        display: block;
+    }
+
+    .form-group input {
+        margin-bottom: 20px;
+    }
+
     
-    .footer-content2 {
-        width: 50%;
+    .footer-content2 li {
+        display: block;
+    }
+
+    .footer-content2 li:not(:last-child) {
+        padding-bottom: 20px;
     }
 }
 
+.footer-content a:hover {
+    color: #ffffff;
+}
 
-/* need to fix responsiveness of the footer */
+.form-group button:hover {
+    background-color: #ff7e53;
+}
+
+.footer-content2 a:hover {
+    color: #ffffff;
+}
+
 
 
 
