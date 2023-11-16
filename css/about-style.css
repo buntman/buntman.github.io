@@ -181,8 +181,6 @@ body {
     color: #ff6d3c;
 }
 
-
-
 .footer {
     background-color: #1f1f1f;
     padding: 60px 0;
@@ -297,10 +295,11 @@ body {
 
     .second-content {
         display: block;
+        margin: 15% 15%;
     }
 
     .second-content h1 {
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .second-content p {
@@ -312,16 +311,19 @@ body {
     }
 
     .third-container h2 {
-        font-size: 38px;
+        font-size: 28px;
     }
 
     .third-content {
+        font-size: 20px;
         width: 100%;
         margin: 5% 0;
     }
+
+    .third-content i {
+        font-size: 30px;
+    }
 }
-
-
 
 @media(max-width: 992px) {
     .footer-content {
@@ -346,6 +348,7 @@ body {
         padding-bottom: 20px;
     }
 }
+
 
 .footer-content a:hover {
     color: #ffffff;
