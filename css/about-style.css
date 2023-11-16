@@ -72,10 +72,13 @@ body {
 
 .content p {
     color: #ffff;
-    font-size: 30px;
+    font-size: 37px;
+    font-family: League Spartan;
+    font-weight: bolder;
 }
 
 .content {
+    max-width: 600px;
     position: absolute;
     width: 50%; 
     margin-top: 20%;
@@ -230,6 +233,10 @@ body {
 
     .second-content p {
         font-size: 20px;
+    }
+
+    .content p {
+        font-size: 30px;
     }
 }
 
