@@ -112,6 +112,24 @@ body {
 }   
 
 
+.third-content-container h2 {
+    font-family: Karla;
+    font-size: 48px;
+    color: #00024b;
+    display: flex;
+    justify-content: center;
+}
+
+.third-content img {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
 .footer {
     background-color: #1f1f1f;
     padding: 60px 0;
