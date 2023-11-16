@@ -83,6 +83,12 @@ body {
     left: 10%;
 }
 
+.second-content {
+    margin: 15% 0;
+    display: flex;
+}
+
+
 .second-content h1 {
     margin-right: 10%;
     font-family: Karla;
@@ -91,14 +97,17 @@ body {
 }
 
 .second-content p {
+    margin-top: 20px;
     font-family: League Spartan;
     font-size: 26px;
+    font-weight: 400;
     color: #000000;
 }
 
 .paragraph-container {
-    max-width: 500px;
+    max-width: 750px;
 }   
+
 
 .footer {
     background-color: #1f1f1f;
@@ -209,6 +218,18 @@ body {
 
     .footer {
         height: auto;
+    }
+
+    .second-content {
+        display: block;
+    }
+
+    .second-content h1 {
+        font-size: 36px;
+    }
+
+    .second-content p {
+        font-size: 20px;
     }
 }
 
