@@ -156,15 +156,32 @@ body {
 }
 
 .third-content img {
+    margin-bottom: 10%;
     height: 200px;
     width: 200px;
 }
 
 
 .third-content i {
+    padding: 20px;
     color: #000000;
-    font-size: 30px;
+    font-size: 40px;
 }
+
+.third-content li {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.third-content i:hover {
+    transition: .5s;
+    color: #ff6d3c;
+}
+
+
 
 .footer {
     background-color: #1f1f1f;
@@ -281,6 +298,7 @@ body {
     .second-content {
         display: block;
     }
+
     .second-content h1 {
         font-size: 36px;
     }
@@ -291,6 +309,15 @@ body {
 
     .content p {
         font-size: 30px;
+    }
+
+    .third-container h2 {
+        font-size: 38px;
+    }
+
+    .third-content {
+        width: 100%;
+        margin: 5% 0;
     }
 }
 
