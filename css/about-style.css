@@ -65,7 +65,7 @@ body {
 }
 
 .background-image {
-    background: url('/images/about-background.avif');
+    background:url('/images/about-background.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
