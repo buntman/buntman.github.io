@@ -366,6 +366,10 @@ body {
         height: auto;
         width: 100%;
     }
+
+    .navbar {
+        padding: 10px;
+    }
 }
 
 @media(max-width: 992px) {
