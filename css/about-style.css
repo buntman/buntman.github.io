@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=League+Spartan:wght@100;400&family=Roboto:wght@100&display=swap');
 
+
+
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
     background-color:#F2F2F2;
 }
 
@@ -63,7 +66,7 @@ body {
 }
 
 .background-image {
-    background-image: url('/images/about-background.jpg');
+    background-image: url('/images/about-background.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -71,7 +74,7 @@ body {
 }
 
 .content p {
-    color: #ffff;
+    color: #ffffff;
     font-size: 37px;
     font-family: League Spartan;
     font-weight: bolder;
@@ -309,7 +312,7 @@ body {
         font-size: 20px;
     }
 
-    .content p {
+    .content p{
         font-size: 25px;
         margin: 50% 0;
     }
