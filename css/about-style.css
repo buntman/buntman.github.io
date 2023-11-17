@@ -104,7 +104,7 @@ body {
     margin-top: 20px;
     font-family: League Spartan;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: lighter;
     color: #000000;
 }
 
@@ -307,7 +307,8 @@ body {
     }
 
     .content p {
-        font-size: 30px;
+        font-size: 25px;
+        margin: 50% 0;
     }
 
     .third-container h2 {
@@ -348,6 +349,7 @@ body {
         padding-bottom: 20px;
     }
 }
+
 
 
 .footer-content a:hover {
