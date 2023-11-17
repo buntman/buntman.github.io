@@ -160,15 +160,24 @@ body {
 }
 
 
-.third-content p {
-    padding: 5px;
-    font-family: Karla;
-    font-size: 24px;
+.third-content p, h3 {
+    padding: 0 0 20px 0;
     color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.third-content h3 {
+    font-family: Karla;
+    font-size: 24px;
+}
+
+.third-content p {
+    font-family: League Spartan;
+    font-size: 20px;
+}
+
 
 .third-content i:hover {
     transition: .5s;
@@ -314,7 +323,7 @@ body {
         margin: 5% 0;
     }
 
-    .third-content p {
+    .third-content h3 {
         font-size: 20px;
     }
 
