@@ -167,9 +167,7 @@ body {
 
     #sec2-text1{
         margin: 0;
-    }
-    
-    
+    }    
 }
 
 @media screen and (min-width: 768px) {
@@ -189,6 +187,10 @@ body {
     .caption p{
         font-size: 1.5rem;
         margin: 0 15px;
+    }
+
+    .Car-Head h1 {
+        padding-top: 50px;
     }
 }
 
