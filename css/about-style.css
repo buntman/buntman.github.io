@@ -65,7 +65,11 @@ body {
 }
 
 
-.thumbnail{
+.container-fluid {
+    padding: 0;
+}
+
+.thumbnail {
     height: 100vh;
     margin: 0;
     padding: 0;
