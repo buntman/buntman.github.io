@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=League+Spartan:wght@100;400&family=Roboto:wght@100&display=swap');
 
-/* eh preset ko na di nga daan ho */
-p, button{
+
+p {
     font-family: League Spartan;
 }
-
-/* button {
-    font-family: Spartan;
-} */
 
 h1, h2, h3, h4, h5, h6{
     font-family: Karla;
@@ -78,9 +74,6 @@ body {
 }
 
 
-
-/* ------------------
-akon na di css */
 .item img{
     width: 100%;
 
@@ -101,48 +94,28 @@ akon na di css */
 }
 
 .Car-Head button, .Section-part2 button{
-    background-color: #F8845D;
+    color: #000000;
+    background-color: #ff6d3c;
     border-radius: 40px;
     font-weight: bold;
     font-size: 1.5rem;
     margin: 20px 0 50px 0;
 }
 
+.Car-Head {
+    margin-top: 20%;
+}
+
+.Car-Head button:hover, .Section-part2 button:hover{
+    background-color: #ff7e53;
+}
+
 #Second-Head{
     margin: 90px 0;
 }
 
-/* .left, .right {
-    background: none;
-}
-
-.left:hover,
-.right:hover {
-    background: none;
-    opacity: 1;
-    filter:none;
-}
-
-.carousel-control {
-
-    background: transparent;
-    background-color: transparent;
-    
-}
-
-.carousel-control, .left,
-.carousel-control, .right {
-    opacity: 1;
-    background-color: transparent;
-    background: none;
-    filter:none;
-} */
-
-
-
-
-#sec2-text1 a{
-    background-color: #F8845D;
+#sec2-text1 a {
+    background-color: #ff6d3c;
     border-radius: 40px;
     font-weight: bold;
     font-size: 1.5rem;
@@ -150,11 +123,14 @@ akon na di css */
     color: #000000;
 }
 
+#sec2-text1 a:hover{
+    background-color: #ff7e53;
+}
+
 #sec2-text1 h1{
     text-align: left;
     font-weight: bold;
     font-size: 4rem;
-    
 }
 
 .text-bold{
@@ -182,7 +158,7 @@ akon na di css */
 }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {  
     .Section-part1 .thumbnail img {
         height: 25rem;
         width: 35rem;
@@ -250,8 +226,11 @@ akon na di css */
     font-size: 1.5rem;
     margin-left: 0px;
 }
-/* lamats css upto here 
-------------------------------*/
+
+.Section-part2 {
+    margin-bottom: 10%;
+}
+
 .footer {
     background-color: #1f1f1f;
     padding: 60px 0;
@@ -403,5 +382,4 @@ akon na di css */
 .footer-content2 a:hover {
     color: #ffffff;
 }
-
 
