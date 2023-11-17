@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=League+Spartan:wght@100;400&family=Roboto:wght@100&display=swap');
+
+/* eh preset ko na di nga daan ho */
+p, button{
+    font-family: League Spartan;
+}
+
+/* button {
+    font-family: Spartan;
+} */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Karla;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#F2F2F2;
+}
+
+.navbar {
+    border-radius: 0;
+    background-color: #F2F2F2;
+    z-index: 1000;
+    position: fixed; 
+    width: 100%; 
+}
+
+
+.navbar-brand {
+    padding: 25px;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-toggle {
+    margin: 25px 15px 25px 0;
+}
+
+.navbar-center {
+    padding-top: 20px;
+}
+
+
+.navbar-center a {
+    color: black !important;
+    font-size: 15px;
+    font-family: Karla;
+}
+
+.navbar-center a:hover {
+    transition: .5s;
+    color: #ff6d3c !important;
+}
+
+.navbar-right {
+    padding: 20px;
+}
+
+.navbar-right a {
+    padding: 20px;
+}
+
+.navbar-right i {
+    font-size: 15px;
+    color: black;
+}
+
+.navbar-right i:hover {
+    transition: .5s;
+    color:#ff6d3c;
+}
+
+
+
+/* ------------------
+akon na di css */
+.item img{
+    width: 100%;
+
+}
+
+.Car-Head h1{
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    
+}
+
+.Car-Head p{
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 20px
+}
+
+.Car-Head button, .Section-part2 button{
+    background-color: #F8845D;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 20px 0 50px 0;
+}
+
+#Second-Head{
+    margin: 90px 0;
+}
+
+/* .left, .right {
+    background: none;
+}
+
+.left:hover,
+.right:hover {
+    background: none;
+    opacity: 1;
+    filter:none;
+}
+
+.carousel-control {
+
+    background: transparent;
+    background-color: transparent;
+    
+}
+
+.carousel-control, .left,
+.carousel-control, .right {
+    opacity: 1;
+    background-color: transparent;
+    background: none;
+    filter:none;
+} */
+
+
+
+
+#sec2-text1 a{
+    background-color: #F8845D;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 20px 0 50px 0;
+    color: #000000;
+}
+
+#sec2-text1 h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 4rem;
+    
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.thumbnail{
+    border: 0;
+}
+
+.Section-part1 .thumbnail img {
+    height: 300px;
+    width: 85vw;
+}
+
+#sec2-text1{
+    margin: 0 25px;
+}
+
+
+.caption p{
+    color: #000000;
+    font-size: 1.5rem;
+    margin: 0 30px;
+}
+
+
+@media screen and (min-width: 992px) {
+    .Section-part1 .thumbnail img {
+        height: 25rem;
+        width: 35rem;
+    }
+
+
+    #sec2-text1{
+        margin: 0;
+    }
+    
+    
+}
+
+@media screen and (min-width: 768px) {
+    .caption p{
+        font-size: 1.5rem;
+        margin: auto;
+    }
+    .Section-part2 .caption p{
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 620px) {
+    .caption p{
+        font-size: 1.5rem;
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .caption p{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .Section-part2{
+        margin-top: 40px;
+    }
+}
+
+
+.Section-part1{
+    margin-bottom: 50px;
+}
+
+.Section-part1 p{
+    color: #000000;
+}
+
+.Section-part2 .thumbnail img{
+    min-height: 45rem;
+}
+
+.Section-part2 .text-bold p{
+    min-height: 60rem;
+}
+
+.Section-part2 .caption p{
+    font-size: 1.5rem;
+    margin-left: 0px;
+}
+/* lamats css upto here 
+------------------------------*/
+.footer {
+    background-color: #1f1f1f;
+    padding: 60px 0;
+    height: 540px;
+    font-family: League Spartan;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+
+.footer-container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    width: 30%;
+    padding: 0 5%;
+}
+
+.footer h4 {
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+}
+
+.footer-content li {
+    margin-bottom: 20px;
+}
+
+.footer-content li, a,p {
+    color: white;
+    font-size: 17px;
+}
+
+.footer-content i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
+.form-group input {
+    margin-right: 25px;
+    width: 236px;
+    height: 38px;
+    border-radius: 7px;
+    background-color: #d8d8d8;
+}
+
+.form-group {
+    display:inline-flex;
+}
+
+.footer-content button {
+    color: black;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff6d3c;
+    width: 98px;
+    height: 38px;
+}
+
+.footer-content p {
+    margin-bottom: 35px;
+}
+
+.footer-content2 {
+    margin: 10% 0 0 5%;
+}
+
+
+.footer-content2 li {
+    display: inline;
+}
+
+.footer-content2 ul {
+    margin-bottom: 20px;
+}
+
+
+.footer-content2 li:not(:last-child) {
+    padding-right: 60px;
+}
+
+.footer-content2 span {
+    padding-left: 40px;
+    font-weight: lighter;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+
+
+@media(max-width: 1200px) {
+    .footer-content {
+        width: 50%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+}
+
+@media(max-width: 992px) {
+    .footer-content {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .form-group {
+        display: block;
+    }
+
+    .form-group input {
+        margin-bottom: 20px;
+    }
+
+    
+    .footer-content2 li {
+        display: block;
+    }
+
+    .footer-content2 li:not(:last-child) {
+        padding-bottom: 20px;
+    }
+}
+
+
+
+.footer-content a:hover {
+    color: #ffffff;
+}
+
+.form-group button:hover {
+    background-color: #ff7e53;
+}
+
+.footer-content2 a:hover {
+    color: #ffffff;
+}
+
+
