@@ -64,12 +64,17 @@ body {
     color:#ff6d3c;
 }
 
-.background-image {
-    background:url('/images/about-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+
+.thumbnail{
     height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.thumbnail img{
+    height: 100%;
+    width: 100%;
 }
 
 .content p {
@@ -333,6 +338,30 @@ body {
         font-size: 30px;
     }
 
+    .content {
+        max-width: 400px;
+        position: absolute;
+        width: 50%; 
+        margin-top: 0;
+        top: 50px;
+        left: 7%;
+    }
+
+    .content p{
+        font-size: 20px;
+    }
+
+    .thumbnail{
+        height: auto;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .thumbnail img{
+        height: auto;
+        width: 100%;
+    }
 }
 
 @media(max-width: 992px) {
@@ -358,7 +387,70 @@ body {
         padding-bottom: 20px;
     }
 
+    .thumbnail{
+        margin-top: 100px;
+    }
+
+    .content {
+        max-width: 600px;
+        position: absolute;
+        width: 50%; 
+        margin-top: 0;
+        top: 2%;
+        left: 5%;
+    }
 }
+
+
+
+@media(max-width: 760px) {
+
+    .content {
+        max-width: 400px;
+        position: absolute;
+        width: 50%; 
+        margin-top: 10px;
+        top: 2%;
+        left: 5%;
+    }
+    .content p{
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width: 560px) {
+    .content {
+        top: 5%;
+    }
+    .content p{
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 430px) {
+
+    .content {
+        top: 6%;
+    }
+    .content p{
+        font-size: 9px;
+    }
+}
+
+@media(max-width: 360px) {
+
+    .content {
+        top: 7%;
+    }
+    .content p{
+        font-size: 9px;
+    }
+}
+
+
+
 
 
 
