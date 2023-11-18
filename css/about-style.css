@@ -334,6 +334,10 @@ body {
         margin: 5% 0;
     }
 
+    .third-content ul {
+        margin-right: 35px;
+    }
+
     .third-content h3 {
         font-size: 20px;
     }
