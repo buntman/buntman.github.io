@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=League+Spartan:wght@100;400&family=Roboto:wght@100&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#F2F2F2;
+}
+
+.navbar {
+    border-radius: 0;
+    background-color:#F2F2F2;
+    z-index: 1000;
+    position: fixed; 
+    width: 100%; 
+}
+
+
+.navbar-brand {
+    padding: 25px;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-toggle {
+    margin: 25px 15px 25px 0;
+}
+
+.navbar-center {
+    padding-top: 20px;
+}
+
+
+.navbar-center a {
+    color: black !important;
+    font-size: 15px;
+    font-family: Karla;
+}
+
+.navbar-center a:hover {
+    transition: .5s;
+    color: #ff6d3c !important;
+}
+     
+.navbar-right {
+    padding: 20px;
+}
+
+.navbar-right a {
+    padding: 20px;
+}
+
+.navbar-right i {
+    font-size: 15px;
+    color: black;
+}
+
+.navbar-right i:hover {
+    transition: .5s;
+    color:#ff6d3c;
+}
+
