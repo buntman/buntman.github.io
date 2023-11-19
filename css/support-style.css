@@ -64,3 +64,46 @@ body {
     color:#ff6d3c;
 }
 
+.first-content {
+    margin: 10% 2% 0 2%;
+}
+
+.content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h1, p, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    font-family: Karla;
+    font-size:48px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-family: League Spartan;
+    font-size:32px;
+    margin-bottom: 7%;
+}
+
+.content h1, p {
+    color: #ffffff;
+}
+
+.form-control {
+    font-family: League Spartan;
+}
+
+
+#search-icon {
+    padding: 10px;
+    margin-right: 5%;
+    font-size: 25px;
+}
