@@ -111,13 +111,13 @@ body {
 
 @media(max-width: 1500px) {
     .content {
-        padding-bottom: 25%;
+        padding-bottom: 20%;
     }
 }
 
 @media(max-width: 1200px) {
     .content {
-        padding-bottom: 40%;
+        padding-bottom: 30%;
     }
 
     .content h1 {
@@ -143,4 +143,19 @@ body {
         font-size: 20px;
     }
 
+}
+
+
+@media(max-width: 768px) {
+    .content {
+        width: fit-content;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
 }
