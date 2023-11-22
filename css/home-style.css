@@ -4,6 +4,7 @@
 
 p {
     font-family: League Spartan;
+    font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -21,9 +22,11 @@ body {
 .navbar {
     border-radius: 0;
     background-color: #F2F2F2;
-    z-index: 1000;
+    top:0px;
+    z-index: 1;
     position: fixed; 
     width: 100%; 
+    
 }
 
 
@@ -83,7 +86,6 @@ body {
     font-weight: bold;
     font-size: 4rem;
     letter-spacing: 0.1rem;
-    
 }
 
 .Car-Head p{
@@ -103,11 +105,15 @@ body {
 }
 
 .Car-Head {
-    margin-top: 20%;
+    margin-top: 10rem;
 }
 
 .Car-Head button:hover, .Section-part2 button:hover{
     background-color: #ff7e53;
+}
+
+.body-content .container-fluid{
+    margin: 20px 20px;
 }
 
 #Second-Head{
@@ -139,6 +145,7 @@ body {
 
 .thumbnail{
     border: 0;
+    background-color: #F2F2F2;
 }
 
 .Section-part1 .thumbnail img {
@@ -154,58 +161,77 @@ body {
 .caption p{
     color: #000000;
     font-size: 1.5rem;
-    margin: 0 30px;
+
 }
 
 
-@media screen and (min-width: 992px) {  
+
+@media screen and (min-width: 1350px) {
+    .Section-part1 .thumbnail img {
+        width: 100%;
+    }
+    #sec2-text1{
+        margin: 0;
+    }   
+
+    .Section-part2 .thumbnail img {
+        width: 100%;
+        height: 460px;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1350px){  
     .Section-part1 .thumbnail img {
         height: 25rem;
         width: 35rem;
     }
 
+    .Section-part1 .thumbnail  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Section-part1 .caption {
+        max-width: 360px;
+    }
 
     #sec2-text1{
         margin: 0;
     }    
+    .Section-part2{
+        margin-top: 40px;
+    }
 }
 
-@media screen and (min-width: 768px) {
-    .caption p{
-        font-size: 1.5rem;
-        margin: auto;
-    }
-    .Section-part2 .caption p{
-        font-size: 1.5rem;
-        margin-left: 0;
+@media screen and (max-width: 768px) {
+
+ 
+    .Section-part1 .thumbnail img {
+        width: 100%;
     }
 
+    .body-content .container-fluid{
+        margin: 20px 0px;
+    }
 
 }
 
-@media screen and (max-width: 620px) {
+/* @media screen and (max-width: 620px) {
     .caption p{
         font-size: 1.5rem;
-        margin: 0 15px;
+        
     }
 
     .Car-Head h1 {
         padding-top: 50px;
     }
-}
+} */
 
-@media screen and (max-width: 380px) {
-    .caption p{
-        font-size: 1.5rem;
-        margin: 0;
-    }
-}
 
-@media screen and (max-width: 992px) {
-    .Section-part2{
-        margin-top: 40px;
-    }
-}
+
 
 
 .Section-part1{
@@ -384,4 +410,3 @@ body {
 .footer-content2 a:hover {
     color: #ffffff;
 }
-
