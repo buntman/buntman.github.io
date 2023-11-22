@@ -66,7 +66,7 @@ body {
 
 .first-content {
     position: relative;
-    margin: 10% 2% 0 2%;
+    margin-top: 10%;
 }
 
 .first-content img {
@@ -109,12 +109,44 @@ body {
     font-family: League Spartan;
 }
 
-
 #search-icon {
     padding: 10px;
     margin-right: 5%;
     font-size: 25px;
 }
+
+
+.second-container {
+    padding: 80px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-content img {
+    height: 333px;
+    width: 456px;
+}
+
+.second-content p {
+    color: black;
+    font-size: 20px;
+    font-family: League Spartan;
+    display: flex;
+    justify-content: start;
+}
+
+.second-content {
+    padding: 0;
+    margin: auto;
+}
+
+
+
+
 
 
 
@@ -131,11 +163,20 @@ body {
     #search-icon {
         margin-right: 30px;
     }
+
+    .second-content img {
+        height: 180px;
+        width: 300px;   
+    }
+
+    .second-content {
+        margin-bottom: 5%;
+    }
+    
 }
 
 
 @media(max-width: 992px) {
-
     .content h1 {
         font-size: 32px;
     }
@@ -143,7 +184,6 @@ body {
     .content p {
         font-size: 20px;
     }
-
 }
 
 
@@ -205,6 +245,15 @@ body {
     #search-icon {
         font-size: 15px;
         padding: 0;
+    }
+
+    .second-content img {
+        height: 130px;
+        width: 200px;   
+    }
+
+    .second-content p {
+        max-width: 200px; 
     }
 }
 
