@@ -137,11 +137,16 @@ body {
     font-family: League Spartan;
     display: flex;
     justify-content: start;
+    max-width: 400px;
 }
 
 .second-content {
     padding: 0;
     margin: auto;
+}
+
+.second-content p:hover {
+    color: #ff6d3c;
 }
 
 
@@ -172,6 +177,12 @@ body {
     .second-content {
         margin-bottom: 5%;
     }
+
+    .second-content p {
+        max-width: 300px;
+    }
+
+
     
 }
 
@@ -206,6 +217,10 @@ body {
     #search-icon {
         margin-right: 20px;
         font-size: 20px;
+    }
+
+    .second-container {
+        padding: 10% 5%;
     }
 }
 
@@ -248,12 +263,17 @@ body {
     }
 
     .second-content img {
-        height: 130px;
-        width: 200px;   
+        height: 150px;
+        width: 250px;   
     }
 
     .second-content p {
-        max-width: 200px; 
+        max-width: 250px;
+    }
+
+    .second-container {
+        padding: 8% 0;
     }
 }
+
 
