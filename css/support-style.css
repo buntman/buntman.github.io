@@ -145,10 +145,13 @@ body {
     margin: auto;
 }
 
+.second-content a:hover {
+    text-decoration: none;
+}
+
 .second-content p:hover {
     color: #ff6d3c;
 }
-
 
 
 
@@ -272,7 +275,7 @@ body {
     }
 
     .second-container {
-        padding: 8% 0;
+        padding: 8% 4%;
     }
 }
 
