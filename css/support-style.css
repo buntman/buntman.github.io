@@ -207,7 +207,51 @@ body {
 }
 
 
+.fourth-container {
+    margin: 5% 0;
+    padding: 20px;
+}
 
+
+.fourth-container h3 {
+    font-family: Karla;
+    font-size: 42px;
+    color:#00024b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fourth-container p{
+    font-family: League Spartan;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.fourth-content-container {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-content {
+    padding: 20px 100px;
+    margin: auto;
+}
+
+
+
+.fourth-content p, span {
+    font-family: League Spartan;
+    font-size: 24px;
+}
+
+.fourth-content p {
+    font-weight: lighter;
+}
 
 
 
