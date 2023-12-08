@@ -1,14 +1,8 @@
-/* change fontstyle of the text inside the textarea */
-/* add media to add more margin when it is smaller */
-/* add media to fix the issue when it is in phone size */
-/* add the text at the bottom */
-
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=League+Spartan:wght@100;400&family=Roboto:wght@100&display=swap');
 
 *{
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -189,7 +183,6 @@ position: absolute;
 
 .icon-links {
   margin-right: 15px;
-  /* padding-right: 10px; */
   position: absolute;
   right: 0;
 } 
@@ -231,20 +224,6 @@ position: absolute;
 
 
 
-
-
-
-
-
-
-
-/* MEDIA--------------------------------------- */
-
-/* lg (for laptops and desktops - screens equal to or greater than 1200px wide) */
-
-
-
-/* md (for small laptops - screens equal to or greater than 992px wide) */
 @media screen and (max-width: 1200px) and (min-width: 992px) {  
 
   .form-layout {
@@ -254,12 +233,7 @@ position: absolute;
   
 }
 
-/* sm (for tablets - screens equal to or greater than 768px wide) */
-@media screen and (max-width: 991px) and (min-width: 768px) {  
 
-}
-
-/* xs (for phones - screens less than 768px wide) */
 @media screen and (max-width: 767px){  
   .contact-info {
     display: initial;
@@ -288,16 +262,6 @@ position: absolute;
   .form-layout{
     width: 100%;
   }
-
-  .footer{
-    width: 100%;
-  }
-
-
-
-
-
-
 }
 
 @media screen and (max-width: 375px){  
@@ -308,25 +272,13 @@ position: absolute;
  
 
   .icon-links{
-    /* display: block; */
     margin: 20px 0;
     width:100%;
     padding-top: 120px;
 
   }
-
- 
-
-  /* .button-container{
-    display: flex;
-    flex-direction: column;
-  } */
-
-
-
-
-
 }
+
 .footer {
   background-color: #1f1f1f;
   padding: 60px 0;
