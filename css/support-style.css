@@ -165,10 +165,7 @@ body {
 }
 
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .third-container h2 {
     font-family: Karla;
@@ -215,7 +212,7 @@ body {
 
 .fourth-container h3 {
     font-family: Karla;
-    font-size: 42px;
+    font-size: 36px;
     color:#00024b;
     display: flex;
     justify-content: center;
@@ -225,32 +222,48 @@ body {
 
 .fourth-container p{
     font-family: League Spartan;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
 }
 
 .fourth-content-container {
-    margin-top: 7%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .fourth-content {
-    padding: 20px 100px;
+    padding: 20px 120px;
     margin: auto;
+    display: flex;
+    align-items: center; 
+}
+
+.content-info {
+    margin-left: 10px; 
+    width: 250px;
 }
 
 
-
-.fourth-content p, span {
+.content-info p, span {
     font-family: League Spartan;
     font-size: 24px;
 }
 
-.fourth-content p {
+.content-info p {
     font-weight: lighter;
+}
+
+/* need tadlungon mag mobile */
+
+/* ang paragraph wala ga align sa span */
+
+@media(max-width: 1292px) {
+    .fourth-content {
+        padding: 20px;
+    }    
 }
 
 
@@ -283,8 +296,9 @@ body {
         max-width: 300px;
     }
 
-
-    
+    .fourth-content {
+        padding: 20px;
+    }    
 }
 
 
@@ -300,6 +314,13 @@ body {
         font-size: 35px;
     }
 
+    .fourth-container h3 {
+        font-size: 32px;
+    }
+
+    .content-info {
+        width: 150px;
+    }   
 }
 
 
@@ -335,6 +356,26 @@ body {
     .third-container p {
         font-size: 20px;
     }
+
+    .fourth-container h3 {
+        font-size: 26px;
+    }
+
+    .fourth-container p {
+        font-size: 16px;
+    }
+
+    .content-info span{
+        font-size: 16px;
+    }
+
+    .fourth-content img {
+        height: 70px;
+    }
+    
+    .content-info {
+        width: 100px;
+    }
 }
 
 
@@ -350,6 +391,17 @@ body {
 
     .first-content {
         margin-top: 20%;
+    }
+    .fourth-content {
+        padding: 0;
+    }
+
+    .fourth-content {
+        display: block;
+    }
+    
+    .fourth-content {
+        padding: 20px;
     }
 }
 
@@ -399,6 +451,18 @@ body {
 
     .third-content span {
         font-size: 20px;
+    }
+    
+    .fourth-container h3 {
+        font-size: 22px;
+    }
+
+    .fourth-container p {
+        font-size: 12px;
+    }
+
+    .content-info {
+        width: 80px;
     }
 }
 
