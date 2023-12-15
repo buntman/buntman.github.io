@@ -311,7 +311,7 @@ body {
 }
 
 
-.form-group input {
+.form-group .form-input {
     margin-right: 25px;
     width: 236px;
     height: 38px;
