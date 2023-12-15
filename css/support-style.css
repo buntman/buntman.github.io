@@ -260,6 +260,121 @@ body {
 
 /* ang paragraph wala ga align sa span */
 
+
+.footer {
+    background-color: #1f1f1f;
+    padding: 60px 0;
+    height: 540px;
+    font-family: League Spartan;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+
+.footer-container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    width: 30%;
+    padding: 0 5%;
+}
+
+.footer h4 {
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+}
+
+.footer-content li {
+    margin-bottom: 20px;
+}
+
+.footer-content li, a,p {
+    color: white;
+    font-size: 17px;
+}
+
+.footer-content i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
+.form-group input {
+    margin-right: 25px;
+    width: 236px;
+    height: 38px;
+    border-radius: 7px;
+    background-color: #d8d8d8;
+}
+
+.form-group {
+    display:inline-flex;
+}
+
+.footer-content button {
+    color: black;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff6d3c;
+    width: 98px;
+    height: 38px;
+}
+
+.footer-content p {
+    display: block;
+    margin-bottom: 35px;
+}
+
+.footer-content2 {
+    margin: 10% 0 0 5%;
+}
+
+
+.footer-content2 li {
+    display: inline;
+}
+
+.footer-content2 ul {
+    margin-bottom: 20px;
+}
+
+
+.footer-content2 li:not(:last-child) {
+    padding-right: 60px;
+}
+
+.footer-content2 span {
+    padding-left: 40px;
+    font-weight: lighter;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.footer-content a:hover {
+    color: #ffffff;
+}
+
+.form-group button:hover {
+    background-color: #ff7e53;
+}
+
+.footer-content2 a:hover {
+    color: #ffffff;
+}
+
 @media(max-width: 1292px) {
     .fourth-content {
         padding: 20px;
@@ -299,6 +414,14 @@ body {
     .fourth-content {
         padding: 20px;
     }    
+
+    .footer-content {
+        width: 50%;
+    }
+
+    .footer {
+        height: auto;
+    }
 }
 
 
@@ -321,6 +444,28 @@ body {
     .content-info {
         width: 150px;
     }   
+
+    .footer-content {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .form-group {
+        display: block;
+    }
+
+    .form-group input {
+        margin-bottom: 20px;
+    }
+
+    
+    .footer-content2 li {
+        display: block;
+    }
+
+    .footer-content2 li:not(:last-child) {
+        padding-bottom: 20px;
+    }
 }
 
 
