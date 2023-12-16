@@ -13,3 +13,10 @@ $(document).ready(function(){
       $(this).css('opacity', '1');
     });
   });
+
+  $(document).ready(function() {
+    $(".burger-menu").click(function() {
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+    });
+});

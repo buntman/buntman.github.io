@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=League+Spartan:wght@100;400&family=Roboto:wght@100&display=swap');
 
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
 p {
     font-family: League Spartan;
     font-size: 1.5rem;
@@ -14,66 +21,78 @@ h1, h2, h3, h4, h5, h6{
 
 
 body {
-    margin: 0;
-    padding: 0;
     background-color:#F2F2F2;
 }
 
-.navbar {
-    border-radius: 0;
+header {
+    height: 90px;
     background-color: #F2F2F2;
-    top:0px;
-    z-index: 1;
-    position: fixed; 
-    width: 100%; 
-    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;  
 }
 
-
-.navbar-brand {
-    padding: 25px;
+.navigation-bar {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: auto;
 }
 
-.navbar-brand img {
-    height: 40px;
+.logo { 
+    float: left;
+    padding: 20px 0;
+    margin-left: 50px;
 }
 
-.navbar-toggle {
-    margin: 25px 15px 25px 0;
+.logo img {
+    height: 45px;
 }
 
-.navbar-center {
-    padding-top: 20px;
+.navigation-menu ul {
+    margin-left: 10px;
 }
 
+.navigation-menu li {
+    list-style: none;
+    display: inline;
+    padding: 10px;  
+}
 
-.navbar-center a {
-    color: black !important;
-    font-size: 15px;
+.navigation-menu{
+    line-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-menu a {
     font-family: Karla;
-}
-
-.navbar-center a:hover {
-    transition: .5s;
-    color: #ff6d3c !important;
-}
-
-.navbar-right {
-    padding: 20px;
-}
-
-.navbar-right a {
-    padding: 20px;
-}
-
-.navbar-right i {
     font-size: 15px;
     color: black;
+    text-decoration: none;
 }
 
-.navbar-right i:hover {
+.navigation-menu a:hover {
     transition: .5s;
-    color:#ff6d3c;
+    color:#ff6d3c;  
+}
+
+.burger-menu {
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+
+.icon-links {
+    margin-right: 100px;
+}
+
+.signup button {
+    display: none;
 }
 
 
@@ -207,14 +226,67 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
- 
     .Section-part1 .thumbnail img {
         width: 100%;
     }
 
     .body-content .container-fluid{
         margin: 20px 0px;
+    }
+    .burger-menu {
+        display: block !important;
+    }
+
+    .navigation-menu {
+        line-height: 40px;
+        position: fixed;
+        width: 100%;
+        max-width: 768px;
+        background-color: #F2F2F2;
+        top: 90px;
+        right: 0;
+        display: none;
+        padding: 20px 40px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .navigation-menu a {    
+        display: block;
+    }
+
+    .navigation-menu li {
+        display: block;
+        padding: 0;
+    }
+
+    .navigation-menu ul {
+        margin-left: 0;
+    }
+
+    .navigation-menu.active {
+        display: block;
+    }
+
+    .icon-links {
+        display: none;
+    }
+
+    .signup button {
+        display: inline-block;
+        padding: 0 20px;
+        background-color: #ff6d3c;
+        color: black;
+        text-decoration: none;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .signup button:hover {
+        background-color: #ff7e53;
+    }
+    .logo {
+        margin-left: 0;
     }
 
 }
@@ -340,7 +412,6 @@ body {
 }
 
 .footer-content2 span {
-    padding-left: 40px;
     font-weight: lighter;
     font-size: 17px;
     color: #ffffff;
