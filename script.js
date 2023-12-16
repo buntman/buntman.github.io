@@ -79,3 +79,39 @@ $(document).ready(function() {
     myFunction(x);
   });
 });
+
+
+// contact-jquery.js
+$(document).ready(function() {
+  $('#phoneNumber').keypress(function(event) {
+    // Check if the pressed key is a number or the backspace key
+    var charCode = (event.which) ? event.which : event.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57) && charCode !== 8) {
+      // If the pressed key is not a number or backspace, prevent input
+      event.preventDefault();
+    }
+  });
+
+  $('.form-control').on({
+    focus: function() {
+      // Add the class when focused
+      $('#' + this.id + '-label').addClass("decorate-label");
+    },
+    blur: function() {
+      if ($(this).val().trim() === '') {
+        $('#' + this.id + '-label').removeClass("decorate-label");
+      }
+    }
+  });
+
+  $('#comments').focus(function() {
+    $('#comments-label').addClass("decorate-label"); 
+  });
+
+  $('#comments').blur(function() {
+    // Check if the input has content
+    if ($(this).val().trim() === '') {
+      $('#comments-label').removeClass("decorate-label");
+    }
+  });
+});

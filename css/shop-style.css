@@ -159,6 +159,7 @@ header {
 
 .shop-image{
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .filter a:hover,

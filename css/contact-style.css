@@ -13,6 +13,8 @@ p, button{
     font-size: 1.5rem;
 }
 
+
+
 h1, h2, h3, h4, h5, h6{
     font-family: Karla;
 }
@@ -24,6 +26,7 @@ body {
     padding: 0;
     background-color:#F2F2F2;
 }
+
 
 header {
   height: 90px;
@@ -97,7 +100,7 @@ header {
 }
 
 
-/* ----------------------------------------------- */
+
 
 .contact-header{
   margin: 50px 0;
@@ -160,13 +163,20 @@ position: absolute;
   transition: .3s ease-out;
 }
 
-.form .input-style input:focus + label,
-.form .input-style input:valid + label {
+
+
+.decorate-label{
   transform: translateY(-18px);
-  
   color: #ff6d3c;
   font-size: 12px;
 }
+
+#comments-label.decorate-label {
+  transform: initial;
+  color: #ff6d3c;
+  font-size: 14px;
+}
+
 
 .input-style-message textarea{
   border: 2px solid black;
@@ -178,7 +188,7 @@ position: absolute;
   border: none;
   outline: none;
   background: #ff6d3c;
-  color: #F2F2F2;
+  color: black;
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -239,6 +249,20 @@ position: absolute;
 
 
 
+
+
+
+
+
+
+
+/* MEDIA--------------------------------------- */
+
+/* lg (for laptops and desktops - screens equal to or greater than 1200px wide) */
+
+
+
+/* md (for small laptops - screens equal to or greater than 992px wide) */
 @media screen and (max-width: 1200px) and (min-width: 992px) {  
 
   .form-layout {
@@ -248,7 +272,7 @@ position: absolute;
   
 }
 
-
+/* xs (for phones - screens less than 768px wide) */
 @media screen and (max-width: 768px){  
   .burger-menu {
     display: block !important;
@@ -319,7 +343,7 @@ position: absolute;
   .go-right{
     text-align: initial;
   }
-  .icon-links a{
+  .icon-links2 a{
     padding-left: 25px;
     
   } 
@@ -332,16 +356,18 @@ position: absolute;
   .form-layout{
     width: 100%;
   }
+
+  .footer{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 375px){  
- 
   .input-style-form-bottom{
     margin-bottom: 30px;
   }
  
-
-  .icon-links{
+  .icon-links2{
     margin: 20px 0;
     width:100%;
     padding-top: 120px;

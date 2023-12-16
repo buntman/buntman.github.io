@@ -40,21 +40,27 @@
   <div class="container container-center">
     <h1 class="text-center contact-header">Contact Us</h1>
     <form action="" class="row form">
+      
       <div class="col-md-6 input-style">
         <input type="text" name="name" id="name" class="form-control" required>
-        <label for="name" >Name</label>
+        <label for="name" id="name-label">Name</label>
       </div>
+      
       <div class="col-md-6 input-style">
+        
         <input type="email" name="email" id="email" class="form-control" required>
-        <label for="email" class="form-label">Email</label>
+        <label for="email" class="form-label" id="email-label">Email</label>
       </div>
+
       <div class="col-md-12 input-style">
-        <input type="number" name="phoneNumber" id="phoneNumber" class="form-control" required>
-        <label for="phoneNumber" class="form-label">Phone Number</label>
+        
+        <input type="text" name="phoneNumber" id="phoneNumber" class="form-control" required>
+        <label for="phoneNumber" class="form-label" id="phoneNumber-label">Phone Number</label>
       </div>
+
       <div class="col-md-12 input-style-message">
-        <label for="comments" class="form-label">Message</label>
-        <textarea name="comments" id="comments" class="form-control" rows="5"></textarea>
+        <label for="comments" class="form-label" id="comments-label">Message</label>
+        <textarea name="comments" id="comments" class="form-control" rows="5" required></textarea>
       </div>
       <div class="col-md-12 input-style-form-bottom button-container">
           <button type="submit" class="btn submit-btn">Contact Us</button>
@@ -84,6 +90,7 @@
   </div>
 </div>
 </section>
+
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-row">
