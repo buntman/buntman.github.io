@@ -4,7 +4,7 @@ $(document).ready(function(){
     }, function(){
       $(this).css('transform', 'scale(1)'); 
     });
-  });
+  }); 
   
   $(document).ready(function(){
     $('.second-content img').hover(function(){

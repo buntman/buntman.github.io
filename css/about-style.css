@@ -143,23 +143,16 @@ header {
     max-width: 750px;
 }   
 
-.third-container ul {
-    list-style: none;
-}
 
 .third-container {
     margin-bottom: 10%;
+    padding: 20px;
 }
 
 .third-content-container {
-    max-width: 1400px;
-    margin: auto;
-}
-
-.third-content {
     display: flex;
-    justify-content: space-evenly;
-    width: 32%;
+    justify-content: center;
+    align-items: center;
 }
 
 .third-row {
@@ -177,17 +170,24 @@ header {
     justify-content: center;
 }
 
+.third-content {
+    padding: 20px 100px;
+    margin: auto;
+}
+
 .third-content img {
     margin-bottom: 15%;
     height: 200px;
     width: 200px;
+    cursor: pointer;
 }
 
 
-.third-content i {
+.social-links i {
     padding: 20px;
     color: #000000;
     font-size: 40px;
+    text-align: center;
 }
 
 
@@ -210,7 +210,7 @@ header {
 }
 
 
-.third-content i:hover {
+.social-links i:hover {
     transition: .5s;
     color: #ff6d3c;
 }
@@ -348,21 +348,14 @@ header {
         font-size: 28px;
     }
 
-    .third-content {
-        width: 100%;
-        margin: 5% 0;
-    }
-
-    .third-content ul {
-        margin-right: 35px;
-    }
 
     .third-content h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
-    .third-content i {
-        font-size: 30px;
+    .social-links i {
+        font-size: 28px;
+        padding: 15px;
     }
 
     .content {
@@ -435,7 +428,6 @@ header {
 
 
 @media(max-width: 768px) {
-
     .content {
         max-width: 400px;
         position: absolute;
@@ -534,6 +526,12 @@ header {
     .content p{
         font-size: 9px;
     }
+
+    .third-content {
+        padding: 0;
+    }
+
+
 }
 
 
