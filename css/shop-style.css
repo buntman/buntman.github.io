@@ -476,7 +476,9 @@ transition: all .5s ease-in-out;
             margin-bottom: 0px;
         }
 
-
+        #sidebar-btn.visible{
+            left: 300px
+        }
     }
 
 
@@ -702,7 +704,6 @@ transition: all .5s ease-in-out;
         font-size: 9px;
     }
 }
-
 
 
 .footer-content a:hover {
