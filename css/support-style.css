@@ -273,11 +273,6 @@ body {
     font-weight: lighter;
 }
 
-/* need tadlungon mag mobile */
-
-/* ang paragraph wala ga align sa span */
-
-
 .footer {
     background-color: #1f1f1f;
     padding: 60px 0;
@@ -397,10 +392,6 @@ body {
         padding: 20px;
     }    
 }
-
-
-
-
 
 @media(max-width: 1200px) {
     .content h1 {
