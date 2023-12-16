@@ -75,6 +75,10 @@ body {
     max-width: 100%;
 }
 
+.first-content:hover {
+    cursor: pointer;
+}
+
 .content {
     width: max-content;
     position: absolute;
@@ -153,6 +157,11 @@ body {
     color: #ff6d3c;
 }
 
+.second-content:hover {
+    cursor: pointer;
+}
+
+
 .third-container {
     padding: 20px;
     margin-top: 5%;
@@ -197,6 +206,10 @@ body {
     margin-bottom: 30px;
 }
 
+.third-container img:hover {
+    cursor: pointer;
+}
+
 
 .third-content {
     padding: 80px;
@@ -239,6 +252,10 @@ body {
     margin: auto;
     display: flex;
     align-items: center; 
+}
+
+.fourth-content:hover {
+    cursor: pointer;
 }
 
 .content-info {
