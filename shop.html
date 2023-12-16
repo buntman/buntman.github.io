@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/shop-style.css">
+    <script src="script.js"></script>
+    <title>SOLTECH | Shop</title>
+
+</head>
+<body>
+    <header>
+        <div class="navigation-bar">
+        <a href="" class="logo"><img src="images/soltech.png" alt="logo"></a>
+        <i class="burger-menu fas fa-bars"></i>
+        <nav class="navigation-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="signup">
+                    <button type="button"><strong>Sign Up</strong></button>
+                </div>
+                <ul class="icon-links">
+                    <li> <a href=""><i class="fas fa-search"></i></a></i> </li>
+                    <li><a href=""><i class="fas fa-user"></i></a> </li>
+                    <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
+                </ul>
+        </nav>  
+        </div>
+    </header>
+<div style="margin-top: 150px;"></div>
+<div class="overlay"></div>
+<div id="sidebar-btn">
+    <div class="menu-btn_burger">
+    </div>
+</div>
+<div class="container-fluid container-shop">
+    <div class = "row container-limit">
+        <div class="col-md-3 filter" tabindex="0">
+            <ul class="nav nav-pills nav-stacked ">
+                <p class="results-header-main">Categories</p>
+                <li><a href="#" class="result-link" >View all</a></li>
+                <li><a href="#" class="result-link" >Laptop</a></li>
+                <li><a href="#" class="result-link" >Memory & Storage</a></li>
+                <li><a href="#" class="result-link" >Keyboards & Mouse</a></li>
+                <li><a href="#" class="result-link" >Ports</a></li>
+                <li><a href="#" class="result-link" >Mainboards</a></li>
+                <li>
+                    <p class="results-header">Brand</p>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Asus</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Lenovo</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">MSI</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Dell</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Razer</label>
+                    </div>
+                </li>
+                <li>
+                    <p class="results-header">Sort By</p>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio" checked>Featured</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio">Price: low to high</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio">Price: high to low</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio">Newest</label>
+                    </div>
+                </li>
+                <li>
+                    <p class="results-header">Availability</p>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Coming Soon</label>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">In Stock</label>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Out of Stock</label>
+                    </div>
+                </li>
+                <li>
+                    <p class="results-header">Pre-Order</p>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Pre-Order</label>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Available</label>
+                    </div>
+                </li>
+                <li style="padding-right: 40px;">
+                    <p class="results-header">Price</p>
+                    <input type="range" name="price" value="0" min="0" max="10000" id="price-slider">
+                    <div id="price-style">
+                        <label>Max Price</label>
+                        <p ><span id="newValue">0.00</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-9">
+                <div class="row shop-image">
+                    <div id="shop-mainContent">SolTech Products</div>
+                    <div class="col-sm-6 padds top-cont">
+                        <div class="thumbnail"> 
+                            
+                            <img src="images/Laptop-1.png" class="img-responsive img-rounded center-block" alt="">
+                            <div class="caption">
+                            <p class="text-bold">Product Name</p>
+                            <p>PHP 0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 padds">
+                        <div class="thumbnail"> 
+                            <!-- <div id="shop-mainContent" style="color: #f2f2f2;">.</div> -->
+                            <img src="images/Laptop-2.png" class="img-responsive img-rounded center-block" alt="">
+                            <div class="caption">
+                            <p class="text-bold">Product Name</p>
+                            <p>PHP 0.00</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+
+                <div class="row shop-image">
+
+                    <div class="col-sm-6 padds">
+                        <div class="thumbnail"> 
+                            <div></div>
+                            <img src="images/Laptop-3.png" class="img-responsive img-rounded center-block" alt="">
+                            <div class="caption">
+                            <p class="text-bold">Product Name</p>
+                            <p>PHP 0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 padds">
+                        <div class="thumbnail"> 
+                            <div></div>
+                            <img src="images/Laptop-4.png" class="img-responsive img-rounded center-block" alt="">
+                            <div class="caption">
+                            <p class="text-bold">Product Name</p>
+                            <p>PHP 0.00</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+
+                <div class="row shop-image">
+
+                    <div class="col-sm-6 padds">
+                        <div class="thumbnail"> 
+                            <div></div>
+                            <img src="images/Laptop-5.png" class="img-responsive img-rounded center-block" alt="">
+                            <div class="caption">
+                            <p class="text-bold">Product Name</p>
+                            <p>PHP 0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 padds">
+                        <div class="thumbnail"> 
+                            <div></div>
+                            <img src="images/Laptop-7.png" class="img-responsive img-rounded center-block" alt="">
+                            <div class="caption">
+                            <p class="text-bold">Product Name</p>
+                            <p>PHP 0.00</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+
+                <div class="row shop-image">
+
+                    <div class="col-sm-6 padds">
+                        <div class="thumbnail"> 
+                            <div></div>
+                            <img src="images/Laptop-8.png" class="img-responsive img-rounded center-block" alt="">
+                            <div class="caption">
+                            <p class="text-bold">Product Name</p>
+                            <p>PHP 0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-6 padds">
+                        <div class="thumbnail"> 
+                            <div></div>
+                            <img src="images/Laptop-11.png" class="img-responsive img-rounded center-block" alt="">
+                            <div class="caption">
+                            <p class="text-bold">Product Name</p>
+                            <p>PHP 0.00</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+                </div>
+        </div>
+    </div>
+</div>
+    <footer class="footer">
+        <div class="footer-container">
+        <div class="footer-row">
+            <div class="footer-content">
+                <ul>
+                    <h4>Company</h4>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <ul>
+                    <h4>Social</h4>
+                    <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <ul>
+                    <h4>Subscribe</h4>
+                    <p>Stay up to date with SOLTECH product updates</p>
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Your Email</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Your Email">
+                            <button type="button"><strong>Sign Up</strong></button>
+                        </div>
+                </ul>
+            </div>
+            <div class="footer-content2">
+                <br>
+                <ul>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Refunds & Exchange Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Warranty</a></li>
+                </ul>
+                <span>@ 2023 SOLTECH</span>
+            </div>
+        </div>
+    </div>
+    </footer> 
+</body>
+</html>
